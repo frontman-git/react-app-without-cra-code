@@ -8,5 +8,5 @@ console.log(subtractNumbers(1, 1));
 console.log(multiplyNumbers(1, 1));
 console.log(divideNumbers(1, 1));
 
-const App = () => <h1>HELLO REACT WORLD WITH JSX</h1>;
+const App = () => <h1>HELLO REACT WORLD WITH JSX {process.env.TEST_API_URL}</h1>;
 ReactDOM.render(<App />, document.getElementById("root"));
